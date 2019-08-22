@@ -1,4 +1,4 @@
-# Team Practices
+# Team Standards
 
 This document is meant to be the scaffold for setting team standards for a data science / machine learning team. Many of these are basic software engineering standards / best practices that help facilitate team collaboration in an organized manner. I use this document when setting up new projects / development teams. The sections of this document are meant to be heavily modified to fit the preferences of the user / team.
 
