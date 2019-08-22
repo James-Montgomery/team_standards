@@ -1,5 +1,7 @@
 # Team Practices
 
+This document is meant to be the scaffold for setting team standards for a data science / machine learning team. Many of these are basic software engineering standards / best practices that help facilitate team collaboration in an organized manner. I use this document when setting up new projects / development teams. The sections of this document are meant to be heavily modified to fit the preferences of the user / team.
+
 <!-- TOC -->
 * [Coding Standards](#coding_standards)
   * [Prioritization](#prioritization)
@@ -16,7 +18,7 @@
 
 ### Prioritization <a name="prioritization"></a>
 
-The team adopts the [Agile Scrum]() style of work assignment using the [SAFe framework](). Developers only work on assigned tasks unless otherwise decided by scrum master / tech lead.
+The team adopts the [Agile Scrum](https://www.cprime.com/resources/what-is-agile-what-is-scrum/) style of work assignment using the [SAFe framework](https://www.scaledagile.com/enterprise-solutions/what-is-safe/). Developers only work on assigned tasks unless otherwise decided by scrum master / tech lead.
 
 * Fewer meetings/ceremonies when possible
 * Stand Up Every Morning (20 min max)
@@ -51,13 +53,13 @@ The team adopts the [Agile Scrum]() style of work assignment using the [SAFe fra
 
 ### Tools <a name="tools"></a>
 
-  * Agile: [JIRA]() or [Trello]()
-  * Code Versioning: [Github]()
-  * Text Editor: [ATOM]()
-  * Python Distribution: >= 3.6 from [Anaconda]()
-  * Python IDE: [PyCharm]()
-  * Python Linter: [Pylint]()
-  * Python Unit Tests: [Nose Tests]()
+  * Agile: [JIRA](https://www.atlassian.com/software/jira) or [Trello](https://trello.com/en-US)
+  * Code Versioning: [Github](https://github.com/)
+  * Text Editor: [Atom](https://atom.io/)
+  * Python Distribution: >= 3.6 from [Anaconda](https://www.anaconda.com/distribution/)
+  * Python IDE: [PyCharm](https://www.jetbrains.com/pycharm/)
+  * Python Linter: [Pylint](https://www.pylint.org/)
+  * Python Unit Tests: [Nose Tests](https://nose.readthedocs.io/en/latest/)
 
 ## Github <a name="github"></a>
 
