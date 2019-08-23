@@ -181,7 +181,7 @@ For tips about PRs see [Tips and Tricks](Tips_and_Tricks.md)
 Recommended Reading: [Clean Code by Robert Martin](https://www.investigatii.md/uploads/resurse/Clean_Code.pdf) <br>
 Recommended Reading: [The Architecture of Open Source Applications](http://aosabook.org/en/index.html)
 
-## Peer Reviews (PRs) / Model Reviews (MRs) <a name="mr"></a>
+### Peer Reviews (PRs) / Model Reviews (MRs) <a name="mr"></a>
 
 One of the most overlooked aspects of a modeling / data science team is model review. We often focus on code review standards forgetting that we should also be vetting our models with a "jury of our peers".
 
