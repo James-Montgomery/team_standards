@@ -64,7 +64,7 @@ The team adopts the [Agile Scrum](https://www.cprime.com/resources/what-is-agile
 
 Style is important for maintainability. Styling encourages good documentation, uniformaty of outputs, and code clarity.
 
-* PEP8 Conventions
+* [PEP8](https://www.python.org/dev/peps/pep-0008/#naming-conventions) Conventions
   * Indentation: 4 spaces
   * Max line length: 99 characters
   * Blank lines: Top level class and function definitions are preceded by 2 blank lines. Method definitions inside a class are preceded by one blank line.
