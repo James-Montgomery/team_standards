@@ -3,6 +3,7 @@
 This document is meant to be the scaffold for setting team standards for a data science / machine learning team. Many of these are basic software engineering standards / best practices that help facilitate team collaboration in an organized manner. I use this document when setting up new projects / development teams. The sections of this document are meant to be heavily modified to fit the preferences of the user / team.
 
 <!-- TOC -->
+* [Communication Standards](#communication)
 * [Coding Standards](#coding_standards)
   * [Prioritization](#prioritization)
   * [Python Style and Formatting](#style)
@@ -14,7 +15,32 @@ This document is meant to be the scaffold for setting team standards for a data 
 * [Deployment](#deployment)
 <!-- TOC -->
 
+## Communication Standards <a name="communication"></a>
+
+Communication standards are the backbone of any team. Setting basic rules around the proper forums and form of discourse can help maintain healthy relationships between teamates. Too little communication leads to disorganization, but too much communication doesn't leave time to actually work!
+
+* Be respectful
+* Assume positive intent
+* KISS (Keep It Simple Stupid)
+ * Be clear
+ * Be simple
+ * Be concise
+ * Don't use jargon if you don't need to 
+* Respect collegues' preferred working hours
+* Respect collegues' time zones
+* Headphones on means "let me work"
+* Respect collegues' time (sometimes we need to be ehads down)
+* Slack > Google Hangouts
+* General team dialogue is for non-dev slack channels
+* Technical dialogue (PRs, code questions, bug reporting) is for dev slack channels
+* NO REPLY ALL EMAILS (pain of death and/or humiliation)
+* No meetings after 3pm on Friday
+* **Don't be jerk**
+* Don't check phones during meetings
+
 ## Coding Standards <a name="coding_standards"></a>
+
+Coding standards are what people usually think of as "software engineering team standards". These standards set the best practices that the team pledges to follow when writing code. These practices are meant to encourage maintainavble, understandable, working code that engineers enjoy working with!
 
 ### Prioritization <a name="prioritization"></a>
 
@@ -36,6 +62,8 @@ The team adopts the [Agile Scrum](https://www.cprime.com/resources/what-is-agile
 
 ### Python Style and Formatting <a name="style"></a>
 
+Style is important for maintainability. Styling encourages good documentation, uniformaty of outputs, and code clarity.
+
 * PEP8 Conventions
   * Indentation: 4 spaces
   * Max line length: 99 characters
@@ -53,8 +81,12 @@ The team adopts the [Agile Scrum](https://www.cprime.com/resources/what-is-agile
 
 ### Tools <a name="tools"></a>
 
+It's important to use simialr tools so that teamates can easily help each other debug technical problems. While it isn't essential that every teammate use the same IDE, for example, it can be helpful to all use somewhat simialr development environments.
+
   * Agile: [JIRA](https://www.atlassian.com/software/jira) or [Trello](https://trello.com/en-US)
   * Code Versioning: [Github](https://github.com/)
+  * Containerizing: Docker
+  * Cloud Deployments: Terraform
   * Text Editor: [Atom](https://atom.io/)
   * Python Distribution: >= 3.6 from [Anaconda](https://www.anaconda.com/distribution/)
   * Python IDE: [PyCharm](https://www.jetbrains.com/pycharm/)
@@ -62,6 +94,8 @@ The team adopts the [Agile Scrum](https://www.cprime.com/resources/what-is-agile
   * Python Unit Tests: [Nose Tests](https://nose.readthedocs.io/en/latest/)
 
 ## Github <a name="github"></a>
+
+Versioning standards are important to make sure that a record of work is kept and accessible. THis is not only for the sake of accountability, but also to help with bugs. If a production roll back is required to fall back to a past stable version...we want to actually have a record of that version! 
 
 * All projects are in a repository
 * It's easier to condense code/projects/repositories than to split them
@@ -72,6 +106,8 @@ The team adopts the [Agile Scrum](https://www.cprime.com/resources/what-is-agile
 * Set an SLA for reviews.
 
 ### Setting Up a Project <a name="setup"></a>
+
+New projects should all be of simialr form to create a sense of continuity. It can be helpful to create [template repositories](https://help.github.com/en/articles/creating-a-template-repository).
 
 * A gitignore file to prevent clutter
 * A README file
