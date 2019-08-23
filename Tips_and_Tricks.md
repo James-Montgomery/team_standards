@@ -9,6 +9,14 @@
 * No unilateral changes. You are part of a team. Code rewrites should be by group consensus through PRs / CRs.
 * Obligation to dissent. Speak up and let your opinion be known. However, be respectful and gracefully accept if the team decides to go another way.
 * Split out brainstorming, problem solving, and review meetings. They are not one and the same.
+* Explicit is better than implicit. "Clever" code can sometimes mean unnecessarily complicated.
+* Trade of level of effort (LOE) and utility. If you can cut scope without impacting core features, do it.
+* Prototype rapidly. Don't be afraid to fail. Failing is usually the quickest path to learning.
+* Automate if you can.
+* Open source over proprietary. 
+* Solve the root cuase of the bug. Don't jsut treat the symptoms. 
+* Derisk when possible. Consistent and reliable delivery is important for team delivery.
+* PLAN AHEAD! Plan you code, research, lunch schedule, all of it.
 
 ## Tips for Reviewers
 
