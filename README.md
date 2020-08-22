@@ -154,6 +154,8 @@ stable version...we want to actually have a record of that version!
 * A  one sentence project description with the name of the team owning the repo is added in the repo description.
 * Repos will include at least 3 topic tags.
 * Set an SLA for reviews.
+* Branch protections are added to ensure proper branching strategies and PRs
+* [Semantic versioning](https://devhints.io/semver) using git tagging and releases
 
 ### Setting Up a Project <a name="setup"></a>
 
