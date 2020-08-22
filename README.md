@@ -1,6 +1,11 @@
 # Team Standards
 
-This document is meant to be the scaffold for setting team standards for a data science / machine learning team. Many of these are basic software engineering standards / best practices that help facilitate team collaboration in an organized manner. I use this document when setting up new projects / development teams. The sections of this document are meant to be heavily modified to fit the preferences of the user / team.
+This document is meant to be the scaffold for setting team standards for a
+data science / machine learning team. Many of these are basic software
+engineering standards / best practices that help facilitate team collaboration
+in an organized manner. I use this document when setting up new projects /
+development teams. The sections of this document are meant to be heavily
+modified to fit the preferences of the user / team.
 
 <!-- TOC -->
 * [Communication Standards](#communication)
@@ -19,7 +24,10 @@ This document is meant to be the scaffold for setting team standards for a data 
 
 ## Communication Standards <a name="communication"></a>
 
-Communication standards are the backbone of any team. Setting basic rules around the proper forums and form of discourse can help maintain healthy relationships between teammates. Too little communication leads to disorganization, but too much communication doesn't leave time to actually work!
+Communication standards are the backbone of any team. Setting basic rules
+around the proper forums and form of discourse can help maintain healthy
+relationships between teammates. Too little communication leads to
+disorganization, but too much communication doesn't leave time to actually work!
 
 * Be respectful
 * Assume positive intent
@@ -44,11 +52,17 @@ Communication standards are the backbone of any team. Setting basic rules around
 
 ## Coding Standards <a name="coding_standards"></a>
 
-Coding standards are what people usually think of as "software engineering team standards". These standards set the best practices that the team pledges to follow when writing code. These practices are meant to encourage maintainable, understandable, working code that engineers enjoy working with!
+Coding standards are what people usually think of as "software engineering team
+standards". These standards set the best practices that the team pledges to
+follow when writing code. These practices are meant to encourage maintainable,
+understandable, working code that engineers enjoy working with!
 
 ### Prioritization <a name="prioritization"></a>
 
-The team adopts the [Agile Scrum](https://www.cprime.com/resources/what-is-agile-what-is-scrum/) style of work assignment using the [SAFe framework](https://www.scaledagile.com/enterprise-solutions/what-is-safe/). Developers only work on assigned tasks unless otherwise decided by scrum master / tech lead.
+The team adopts the [Agile Scrum](https://www.cprime.com/resources/what-is-agile-what-is-scrum/)
+style of work assignment using the [SAFE framework](https://www.scaledagile.com/enterprise-solutions/what-is-safe/).
+Developers only work on assigned tasks unless otherwise decided by scrum
+master / tech lead.
 
 * Fewer meetings/ceremonies when possible
 * Stand Up Every Morning (20 min max)
@@ -64,11 +78,15 @@ The team adopts the [Agile Scrum](https://www.cprime.com/resources/what-is-agile
 * Every sprint ends with a Demo and Retro meeting (1 hour total)
 * The last sprint in every PI is dedicated just to tech debt / model debt
 
-**Note:** Model debt is similar to tech debt. We often take short cuts to get a model to production. We say that we will deploy a minimal viable product (MVP) and the improve upon it iteratively. It's important that we go back and fix the modeling short cuts that we took to get to the MVP.
+**Note:** Model debt is similar to tech debt. We often take short cuts to get a
+model to production. We say that we will deploy a minimal viable product (MVP)
+and the improve upon it iteratively. It's important that we go back and fix the
+modeling short cuts that we took to get to the MVP.
 
 ### Python Style and Formatting <a name="style"></a>
 
-Style is important for maintainability. Styling encourages good documentation, uniformity of outputs, and code clarity.
+Style is important for maintainability. Styling encourages good documentation,
+uniformity of outputs, and code clarity.
 
 * [PEP8](https://www.python.org/dev/peps/pep-0008/#naming-conventions) Conventions
   * Indentation: 4 spaces
@@ -87,7 +105,8 @@ Style is important for maintainability. Styling encourages good documentation, u
 
 ### Testing Standards <a name="testing"></a>
 
-In many ways test code makes or breaks a project. Catching problem spots as or before they occur is a huge part of creating a maintainable project.
+In many ways test code makes or breaks a project. Catching problem spots as or
+before they occur is a huge part of creating a maintainable project.
 
 * Projects have all three tiers of the testing pyramid
   * Unit Testing
@@ -105,7 +124,11 @@ In many ways test code makes or breaks a project. Catching problem spots as or b
 
 ### Tools <a name="tools"></a>
 
-It's important to use similar tools so that teammates can easily help each other debug technical problems. While it isn't essential that every teammate use the same IDE, for example, it can be helpful to all use somewhat similar development environments.
+It's important to use similar tools so that teammates can easily help each other
+debug technical problems. While it isn't essential that every teammate use the
+same IDE, for example, it can be helpful to all use somewhat similar development
+environments. A good team lead will strike a balance between micromanaging tool
+use and establishing common patterns and workflows in the team.
 
   * Agile: [JIRA](https://www.atlassian.com/software/jira) or [Trello](https://trello.com/en-US)
   * Code Versioning: [Github](https://github.com/)
@@ -119,7 +142,10 @@ It's important to use similar tools so that teammates can easily help each other
 
 ## Github <a name="github"></a>
 
-Versioning standards are important to make sure that a record of work is kept and accessible. This is not only for the sake of accountability, but also to help with bugs. If a production roll back is required to fall back to a past stable version...we want to actually have a record of that version!
+Versioning standards are important to make sure that a record of work is kept
+and accessible. This is not only for the sake of accountability, but also to
+help with bugs. If a production roll back is required to fall back to a past
+stable version...we want to actually have a record of that version!
 
 * All projects are in a repository
 * It's easier to condense code/projects/repositories than to split them
@@ -131,7 +157,8 @@ Versioning standards are important to make sure that a record of work is kept an
 
 ### Setting Up a Project <a name="setup"></a>
 
-New projects should all be of similar form to create a sense of continuity. It can be helpful to create [template repositories](https://help.github.com/en/articles/creating-a-template-repository).
+New projects should all be of similar form to create a sense of continuity. It
+can be helpful to create [template repositories](https://help.github.com/en/articles/creating-a-template-repository).
 
 * A gitignore file to prevent clutter
 * A README file
@@ -151,7 +178,7 @@ New projects should all be of similar form to create a sense of continuity. It c
 
 ### Peer Reviews (PRs) / Code Reviews (CRs) <a name="cr"></a>
 
-Release Philosophy: Release Often and Release Small
+Release Philosophy: Release Often and Release Small <br>
 Small, decoupled releases help streamline the release pipeline and make PRs less painful.
 
 * Merging to Master requires a PR from a team member who did not contribute to the merge branch
@@ -183,7 +210,9 @@ Recommended Reading: [The Architecture of Open Source Applications](http://aosab
 
 ### Peer Reviews (PRs) / Model Reviews (MRs) <a name="mr"></a>
 
-One of the most overlooked aspects of a modeling / data science team is model review. We often focus on code review standards forgetting that we should also be vetting our models with a "jury of our peers".
+One of the most overlooked aspects of a modeling / data science team is model
+review. We often focus on code review standards forgetting that we should also
+be vetting our models with a "jury of our peers".
 
 * Models are formulated as packages, modules, or classes for easy of reuse and testing
 * If appropriate, offline testing results should be part of the model review
@@ -200,9 +229,10 @@ One of the most overlooked aspects of a modeling / data science team is model re
 
 ### Branching <a name="branching"></a>
 
-Use a trunk based workflow. Developers make branches for particular features/bugs. These branches are merged with master when complete through a peer reviewed merge request. Specific versions are clearly tagged and linked to a particular master checkpoint. Projects that don't expect "hit" fixes and has a scheduled set release cadence might want to consider a gitflow based method as opposed to a trunk based method.
-
-![Git Trunk](gitflow_trunk.png)
+There are many different branching strategies that a team can use to manage updates
+to their projects in Github. Pick a strategy that meets your needs and stick to it.
+A bad branching strategy can make rollbacks and releases a nightmare, so choose carefully.
+Enforce your branching strategy using branch protections in Github.
 
 Recommended Reading: [Learn Branching](https://learngitbranching.js.org/?locale=en_US)
 
@@ -212,8 +242,14 @@ Recommended Reading: [Learn Branching](https://learngitbranching.js.org/?locale=
   * Dev: Infra for development and experimentation.
   * QA: Infra for quality assurance of next "stable" version to be pushed to prod.
   * Prod: Infra for stable versions of project.
-* CICD means automated testing! No if and or buts.
+* CICD includes automated testing! No if and or buts.
 
 ## Acknowledgments
 
-A big thank you to David Harrington, Petra Khaliqi, Esther Wall, Fabrice Guillaume, Thanos Kintsakis, and Bryce Crawford who have greatly shaped my view of how a well oiled tech team should operate.
+A big thank you to David Harrington, Petra Khaliqi, Esther Wall, Fabrice Guillaume,
+Thanos Kintsakis, and Bryce Crawford who have greatly shaped my view of how a well
+oiled tech team should operate.
+
+## Notes / Advice
+
+* I recommend using repository templates like [this](https://github.com/James-Montgomery/python_project_template) to ensure consistency and save time building out proof of concepts (POCs)
