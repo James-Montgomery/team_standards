@@ -176,6 +176,9 @@ can be helpful to create [template repositories](https://help.github.com/en/arti
 * Deployable units should share a repository.
   * i.e. the lambda an api is deployed on should have a terraform definition in the same repo as the api code
 
+Here is an example template for building proof of concept python tools:
+[LINK](https://github.com/James-Montgomery/python_project_template)
+
 ### Peer Reviews (PRs) / Code Reviews (CRs) <a name="cr"></a>
 
 Release Philosophy: Release Often and Release Small <br>
@@ -249,7 +252,3 @@ Recommended Reading: [Learn Branching](https://learngitbranching.js.org/?locale=
 A big thank you to David Harrington, Petra Khaliqi, Esther Wall, Fabrice Guillaume,
 Thanos Kintsakis, and Bryce Crawford who have greatly shaped my view of how a well
 oiled tech team should operate.
-
-## Notes / Advice
-
-* I recommend using repository templates like [this](https://github.com/James-Montgomery/python_project_template) to ensure consistency and save time building out proof of concepts (POCs)
