@@ -138,7 +138,7 @@ use and establishing common patterns and workflows in the team.
   * Python Distribution: >= 3.6 from [Anaconda](https://www.anaconda.com/distribution/)
   * Python IDE: [PyCharm](https://www.jetbrains.com/pycharm/)
   * Python Linter: [Pylint](https://www.pylint.org/)
-  * Python Unit Tests: [Nose Tests](https://nose.readthedocs.io/en/latest/)
+  * Python Unit Tests: [Pytest](https://docs.pytest.org/en/6.2.x/) (recommended) or [Nose Tests](https://nose.readthedocs.io/en/latest/)
 
 ## Github <a name="github"></a>
 
